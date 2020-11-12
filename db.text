@@ -1,0 +1,11 @@
+CREATE DATABASE `academy` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+-- academy.note definition
+
+CREATE TABLE `note` (
+  `id` varchar(10) NOT NULL,
+  `name` varchar(40) NOT NULL,
+  `note1` decimal(6,2) NOT NULL,
+  `note2` decimal(6,2) NOT NULL,
+  `average` decimal(6,2) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
